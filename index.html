@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/adaptive-menu.css">
+	<link rel="stylesheet" href="css/adaptive.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/down-menu.css">
+	<link rel="stylesheet" href="css/preloader.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+	<title>Document</title>
+</head>
+<content>
+  	<input id="hamburger" class="hamburger" type="checkbox"/>
+  	<label class="hamburger" for="hamburger">
+    	<i></i>
+   		<text>
+	      	<open>Меню</open>
+    	</text>
+  	</label>
+  	<section class="drawer-list">
+       	<ul>
+         	<li><a href="#header">New order</a></li>
+         	<li><a href="#tarif">Services</a></li>
+          	<li><a href="#services">Orders</a></li>
+         	<li><a href="#poisk">Add funds</a></li>
+         	<li><a href="#reviews">API</a></li>
+         	<li><a href="#reviews"><img src="img/russia.svg" alt=""></a></li>
+         	<li><a href="#reviews" class="green">$0.00</a></li>
+         	<li><a href="#reviews" class="green">Account</a></li>
+         	<li><a href="#reviews" class="green">Logout</a></li>
+      	</ul>
+    </section>
+</content>
+<body>
+	<header class="header">
+	<div class="preloader" id="preloader">
+	<p>Пожалуйста, подождите</p>
+	<div class="loader">
+		<div class="wrapper">
+		  <span class="ball"></span>
+		  <span class="ball"></span>
+		  <span class="ball"></span>
+		  <span class="ball"></span>
+		</div>
+		<div class="drop-shadow"></div>
+		<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
+		  <defs>
+		    <filter id="ball">
+		      <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
+		      <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="ball" />
+		      <feBlend in="SourceGraphic" in2="ball" />
+		  	</filter>
+		</defs>
+		</svg>
+	</div>
+	</div>
+		<div class="container">
+			<div class="header-body">
+				<nav>
+					<ul class="menu">
+						<li class="menu__item">
+							<a href="#" class="menu__link">New order</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Services</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Orders</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">Add funds</a>
+						</li>
+						<li class="menu__item">
+							<a href="#" class="menu__link">API</a>
+						</li>
+					</ul>
+				</nav>
+				<a href="#"><img src="img/russia.svg" alt="Russia" class="russia"></a>
+				<div class="data-menu">
+					<a href="#">$0.00</a>
+					<a href="#">Account</a>
+					<a href="#">Logout</a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section class="username">
+		<div class="container">
+			<div class="username-wrapper">
+				<div class="username-block">
+					<h3>User<span>na</span>me</h3>
+					<div class="username-window">
+						<p>Username</p>
+					</div>
+				</div>
+				<div class="form-wrapper">
+					<form action="#" class="form">
+						<h3>Current password</h3>
+						<input type="text" placeholder="password" class="input">
+						<h3>New password</h3>
+						<input type="text" placeholder="password" class="input">
+						<h3>Confirm new password</h3>
+						<input type="text" placeholder="password" class="input">
+						<button class="form-btn">
+							Изменить пароль
+						</button>
+					</form>
+				</div>
+				<div class="timezone-wrapper">
+					<h3>Timezone</h3>
+					<div class="timezone-block">
+						<p>(UTC -12:00) Baker/Howland Island</p>
+						<img src="img/strelka.svg" alt="" class="strelka">
+						<div class="timezone-down">
+							<div class="down-list down-one">
+								<p>
+									(UTC -13:00) Baker/Howland Island
+								</p>
+							</div>
+							<div class="down-list down-two">
+								<p>
+									(UTC -14:00) Baker/Howland Island
+								</p>
+							</div>
+							<div class="down-list down-last">
+								<p>
+									(UTC -15:00) Baker/Howland Island
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="timezone-button">
+						<a href="#" class="timezone-btn">Generate new</a>
+					</div>
+				</div>
+				<div class="key-wrapper">
+					<h3>API key</h3>
+					<div class="key-windown">
+						<p>115bea33a436d63477adcd7562f99a59</p>
+						<p>
+							115bea33a436d63477 <br> adcd7562f99a59
+						</p>
+					</div>
+					<div class="key-button">
+						<a href="#" class="key-btn">Generate new</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="js/common.js"></script>
+</body>
+</html>

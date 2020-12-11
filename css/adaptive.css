@@ -1,0 +1,93 @@
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 968px !important;
+    padding: 0 15px !important;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px !important;
+    padding: 0 15px !important;
+  }
+  .header-body {
+    display: block !important;
+    text-align: center;
+  }
+  .menu__item {
+    margin: 0 auto;
+  }
+  .menu__item:first-child {
+    margin-left: 20px !important;
+  }
+  .russia {
+    margin-right: 0 !important;
+    margin-top: 20px;
+  }
+  .data-menu a {
+    margin-left: 0 !important;
+  }
+  .data-menu a:first-child {
+    margin-right: 80px;
+  }
+  .data-menu a:last-child {
+    margin-left: 80px !important;
+  }
+  .data-menu {
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px !important;
+    padding: 0 15px !important;
+  }
+  .menu,
+  .data-menu,
+  .russia {
+    display: none !important;
+  }
+  .header {
+    padding: 35px 0 !important;
+  }
+  content {
+    opacity: 1 !important;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90% !important;
+  }
+  .timezone-block p,
+  .down-list p {
+    line-height: 1.4em;
+  }
+  .timezone-wrapper {
+    padding-bottom: 60px !important;
+  }
+  .timezone-down {
+    bottom: -129px !important;
+  }
+  .form-wrapper,
+  .timezone-wrapper {
+    padding: 23px 17px 26px 17px !important;
+  }
+  .timezone-button,
+  .key-button {
+    display: flex;
+    justify-content: center;
+  }
+  .username {
+    padding-bottom: 30px !important;
+  }
+  .preloader p {
+    top: 70% !important;
+  }
+}
+@media screen and (max-width: 430px) {
+  .key-windown p:first-child {
+    display: none;
+  }
+  .key-windown p:last-child {
+    display: block !important;
+  }
+}

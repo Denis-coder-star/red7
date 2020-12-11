@@ -1,0 +1,11 @@
+.strelka-active {
+	transform: rotate(180deg);
+}
+
+.timezone-block-active {
+	border-radius: 5px 5px 0 0;
+}
+
+.timezone-down-active {
+	display: block;
+}
